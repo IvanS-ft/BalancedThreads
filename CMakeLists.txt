@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 2.8.12)
 
 set(BT_MAXTHREADS 8 CACHE STRING "Maximum number of created threads")
 
