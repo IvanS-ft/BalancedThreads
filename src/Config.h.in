@@ -1,0 +1,22 @@
+#define BT_MAJOR_VERSION @BalancedThreads_VERSION_MAJOR@
+#define BT_MINOR_VERSION @BalancedThreads_VERSION_MINOR@
+
+#define BT_MAXTHREADS @BT_MAXTHREADS@
+
+enum {
+    BT_WINDOWS = 1,
+    BT_UNIX,
+    BT_NUMOS = BT_UNIX,
+};
+
+#if defined(__unix__) || defined(__unix) || (defined(__APPLE__) && defined(__MACH__))
+#define BT_OSTYPE BT_UNIX
+#elif defined(_WIN32)
+#define BT_OSTYPE BT_WINDOWS
+#endif
+
+#ifdef NDEBUG
+#define BT_DEBUG
+#else
+#define BT_RELEASE
+#endif
