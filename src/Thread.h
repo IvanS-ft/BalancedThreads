@@ -6,6 +6,7 @@
 #define BT_THREAD_H
 
 #include <stdint.h>
+#include <string.h>
 #include "Timer.h"
 #include "Lock.h"
 

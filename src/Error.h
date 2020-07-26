@@ -6,7 +6,7 @@
 #ifndef BT_ERROR_H
 #define BT_ERROR_H
 
-#include <stdint.h>
+#include <string.h>
 #include <Config.h>
 
 enum EErrorType {

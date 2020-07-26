@@ -2,6 +2,8 @@
 #ifndef BT_BALANCEDTHREADS_H
 #define BT_BALANCEDTHREADS_H
 
+#include <string.h>
+
 struct SContextInit{
     size_t numThreads;
     enum {

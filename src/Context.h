@@ -7,6 +7,7 @@
 #define BT_INTERNAL
 #include "BalancedThreads.h"
 #include "Lock.h"
+#include <string.h>
 
 struct SContext {
     struct SLock jobsLock;
