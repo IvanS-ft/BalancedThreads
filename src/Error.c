@@ -4,6 +4,6 @@
 
 struct SError ErrorGet(void* context) {
     struct SError ret;
-    return ret; //wagagag
+    return ret; //wagagagasdf
 }
 
